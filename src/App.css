@@ -1,11 +1,16 @@
+*{
+  word-wrap: break-word;
+}
+
 body{
   background-color:#f0f3f7;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  text-align: center;
+  text-align: center
 }
+
 
 .maincard{
   display: flex;
@@ -14,7 +19,7 @@ body{
   justify-content: center;
   background-color: #fff;
   border-top: 10px solid #039afe;
-  padding: 30px 10px;
+  padding: 30px 20px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   box-shadow: 1px 1px 15px rgba(0,0,0, 30%);
@@ -22,6 +27,7 @@ body{
   width: 80vw;
   text-align: center;
   overflow-x: hidden;
+  margin: 10px auto;
 }
 
 .heightfixed{
@@ -29,6 +35,7 @@ body{
 }
 
 .headingofcards{
+  text-align: start;
   width: 120px;
   font-size: 25px;
   font-weight: 300;
@@ -40,6 +47,9 @@ body{
 
 .singleine{
   margin: 10px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .singleine select {

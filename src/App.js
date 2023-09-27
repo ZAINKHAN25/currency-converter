@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div className="centerline">
-      <h1 style={{ fontWeight: '400' }}>Currency Converter</h1>
+      <h1 style={{ fontWeight: '400', fontSize: "50px" }}>Currency Converter</h1>
       <div className='maincard'>
         <div className='heightfixed'>
           <b className='resultdiv'>
